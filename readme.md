@@ -1,7 +1,7 @@
-# 深度学习算法实践
+# Python 手搓经典计算机视觉与深度学习系统
 
 <p align="center">
-  <em>从零开始实现经典机器学习与深度学习算法</em>
+  <em>I'm the nailong, I'm the real nailorch!</em>
 </p>
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -9,7 +9,7 @@
 
 本项目是一个**深度学习学习与实践仓库**，包含从传统机器学习到现代生成模型的多种算法实现。所有示例均基于 NumPy/CuPy 从底层实现，旨在帮助理解算法原理。
 
-> 📌 本项目中的 `nailorch` 模块参考了 [DeZero](https://github.com/oreilly-japan/deep-learning-from-scratch-3)（《深度学习入门3：框架篇》）的设计与实现。
+> 📌 本项目中的 `nailorch` 模块参考了 [DeZero](https://github.com/oreilly-japan/deep-learning-from-scratch-3)（《深度学习入门3》）的设计与实现。
 
 ---
 
