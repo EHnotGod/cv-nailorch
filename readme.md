@@ -1,11 +1,12 @@
 # Python 手搓经典计算机视觉与深度学习系统
 
-<p align="center">
-  <em>I'm the nailong, I'm the real nailorch!</em>
-</p>
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.8+](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/downloads/)
+
+<p align="center">
+  <em>I'm the nailong, I'm the real nailorch!</em>
+</p>
 
 本项目是一个**深度学习学习与实践仓库**，包含从传统机器学习到现代生成模型的多种算法实现。所有示例均基于 NumPy/CuPy 从底层实现，旨在帮助理解算法原理。
 
@@ -27,7 +28,7 @@
 
 更多更详细的原理讲解请关注本项目的飞书文档，以及本目录下的 PDF 教程。
 
-📎 **飞书文档**：[点击访问](https://scnd2n1l49md.feishu.cn/docx/JqkOdUvxfoHxU7x391kcPJBSnpf?from=from_copylink)
+📎 **飞书文档**：[点击访问](https://scnd2n1l49md.feishu.cn/wiki/ZDgCwM98XiiZymks2nucxI2ynvd)
 
 ---
 
@@ -39,6 +40,8 @@
 - NumPy
 - Matplotlib
 - CuPy（可选，建议，GPU 加速）
+
+不同experiments内部由于不同的数据加载方式会有额外的环境需求，不过仅用于数据加载，非参与训练。
 
 ### 运行示例
 
@@ -56,16 +59,17 @@ python train.py
 ```
 ├── experiments/               # 算法实验代码
 │   ├── knn/                   # K-近邻
-│   ├── softmax/               # Softmax + MLP
+│   ├── softmax/               # Softmax
 │   ├── tlnn/                  # 两层神经网络
 │   ├── cnn/                   # 卷积神经网络
 │   ├── rnn/                   # RNN / LSTM
 │   ├── diffusion/             # 扩散模型
 │   └── pico-gpt/              # GPT 语言模型
 ├── docs/                      # 算法原理文档
-├── data/                      # 数据文件
-├── nailorch/                  # 底层工具库 (基于 DeZero)
-└── llm_logs/                  # 学习日志
+├── data/                      # 部分数据文件
+├── nailorch/                  # 自动微分包 (基于 DeZero改造)
+├── llm_logs/                  # AI交互日志
+└── Textbook.pdf               # 总教材pdf文件
 ```
 
 ---
