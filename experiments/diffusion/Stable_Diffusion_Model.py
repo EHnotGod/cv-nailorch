@@ -45,7 +45,6 @@ class TransformerBlock(L.Layer):
         self.fc2 = L.Linear(channel, in_size=fsize)
 
     def forward(self, x, cls_emb):
-        xp = cuda.get_array_module(x)
         x_t = x.transpose(0, 2, 3, 1)
         # Q: (batch, h, w, qsize)
         Q = self.w_q(x_t)

@@ -17,13 +17,13 @@
 
 | 算法 | 描述 | 代码 | 原理文档 |
 |------|------|------|----------|
-| **KNN** | K-近邻分类算法 | [examples/knn/](examples/knn/) | [KNN.md](docs/knn/KNN.md) |
-| **Softmax + MLP** | Softmax 回归与多层感知机 | [examples/softmax/](examples/softmax/) | [softmax.md](docs/softmax/softmax.md) |
-| **TLNN** | 两层全连接神经网络 | [examples/tlnn/](examples/tlnn/) | [TLNN.md](docs/tlnn/TLNN.md) |
-| **CNN** | 卷积神经网络 | [examples/cnn/](examples/cnn/) | [CNN.md](docs/cnn/CNN.md) |
-| **RNN / LSTM** | 循环神经网络与长短期记忆 | [examples/rnn/](examples/rnn/) | [RNN.md](docs/rnn/RNN.md) |
-| **DDPM** | 去噪扩散概率模型 | [examples/diffusion/](examples/diffusion/) | - |
-| **Pico-GPT** | 轻量级 GPT 语言模型 | [examples/pico-gpt/](examples/pico-gpt/) | - |
+| **KNN** | K-近邻分类算法 | [experiments/knn/](experiments/knn/) | [KNN.md](docs/knn/KNN.md) |
+| **Softmax + MLP** | Softmax 回归与多层感知机 | [experiments/softmax/](experiments/softmax/) | [softmax.md](docs/softmax/softmax.md) |
+| **TLNN** | 两层全连接神经网络 | [experiments/tlnn/](experiments/tlnn/) | [TLNN.md](docs/tlnn/TLNN.md) |
+| **CNN** | 卷积神经网络 | [experiments/cnn/](experiments/cnn/) | [CNN.md](docs/cnn/CNN.md) |
+| **RNN / LSTM** | 循环神经网络与长短期记忆 | [experiments/rnn/](experiments/rnn/) | [RNN.md](docs/rnn/RNN.md) |
+| **DDPM** | 去噪扩散概率模型 | [experiments/diffusion/](experiments/diffusion/) | - |
+| **Pico-GPT** | 轻量级 GPT 语言模型 | [experiments/pico-gpt/](experiments/pico-gpt/) | [模型权重](https://huggingface.co/EHnotgod/pico-gpt) |
 
 更多更详细的原理讲解请关注本项目的飞书文档，以及本目录下的 PDF 教程。
 
@@ -44,7 +44,7 @@
 
 ```bash
 # 以 CNN 为例
-cd examples/cnn
+cd experiments/cnn
 pip install -r requirements.txt
 python train.py
 ```
@@ -54,7 +54,7 @@ python train.py
 ## 📁 项目结构
 
 ```
-├── examples/                  # 算法示例代码
+├── experiments/               # 算法实验代码
 │   ├── knn/                   # K-近邻
 │   ├── softmax/               # Softmax + MLP
 │   ├── tlnn/                  # 两层神经网络
