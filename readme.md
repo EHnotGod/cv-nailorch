@@ -1,8 +1,11 @@
 # Python 手搓经典计算机视觉与深度学习系统
 
-
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.8+](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/downloads/)
+
+<p align="center">
+  <img src="nailong.png" width="200">
+</p>
 
 <p align="center">
   <em>I'm the nailong, I'm the real nailorch!</em>
@@ -93,3 +96,4 @@ python train.py
 ## 🙏 致谢
 
 - [DeZero](https://github.com/oreilly-japan/deep-learning-from-scratch-3) - 本项目的 `nailorch` 模块基于此实现
+- [豆包AI](https://www.doubao.com/) - 奶龙图片由豆包AI生成
